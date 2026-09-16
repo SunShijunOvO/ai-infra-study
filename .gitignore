@@ -1,2 +1,22 @@
-# VS Code Config
+# VS Code config
 .vscode/
+# Study Resources
+.resources/
+
+# Local scratch files
+.tmp/
+
+# Build and runtime artifacts
+**/build/
+**/.cache/
+**/__pycache__/
+*.o
+*.a
+*.so
+*.out
+compile_commands.json
+
+# Large profiler output; keep small summaries and final charts instead
+*.ncu-rep
+*.nsys-rep
+**/results/raw/
