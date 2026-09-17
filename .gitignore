@@ -20,3 +20,6 @@ compile_commands.json
 *.ncu-rep
 *.nsys-rep
 **/results/raw/
+
+# Local executable from the first learning experiment
+/experiments/l0-assignment-vs-accumulation/main
